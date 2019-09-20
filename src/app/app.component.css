@@ -1,0 +1,29 @@
+ table {
+  width: 100%;
+  border: 1px solid black;
+  display:block;
+
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.fixed_header tbody{
+  display:block;
+  overflow:auto;
+  height:auto;
+  max-height: 700px;
+}
+thead th { 
+  position: sticky; 
+  top: 0; 
+  background-color: white;
+}
